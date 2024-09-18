@@ -37,10 +37,11 @@ python classification-data-preprocessing.py
 
 **Files and code organizations**:
 
-1. T1-ROI-preprocess & T2-ROI-preprocess  % Folder that stores the preprocessed T1/T2 files. This folder will fill after running classification-data-preprocessing.py
-2. label-classifyT1C+T2-clear.xlsx % Template for what this xlsx data file should contain with all column headers.
-3. label-T1C+T2-clear.xlsx % Template for what this xlsx data file should contain with all column headers. 
-
+```
+- T1-ROI-preprocess & T2-ROI-preprocess: Folder that stores the preprocessed T1/T2 files. This folder will fill after running classification-data-preprocessing.py
+- label-classifyT1C+T2-clear.xlsx: Template for what this xlsx data file should contain with all column headers.
+- label-T1C+T2-clear.xlsx: Template for what this xlsx data file should contain with all column headers. 
+```
 
 ## Citation
 If you find our work helpful, please cite us
