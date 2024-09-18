@@ -14,7 +14,23 @@ Our study aims to develop a comprehensive end-to-end pipeline. We first evaluate
 ## Dependencies:
 To establish the environment, run this code in the shell:
 ```
-conda activate vote_MI
+conda activate ovarian_classcify
 pip install -e requrements.txt.
 ```
-That will create the environment selective_annotation we used.
+That will create the environment ovarian classification model we used.
+
+## Usage
+### Environment setup
+Activate the environment by running
+```
+conda activate ovarian_classcify
+```
+
+### Code pipeline: data-preprocess, SAM model, and classification model inference
+```
+python main.py --task_name xxx --selective_annotation_method vote-MI --model_dir models --data_dir datasets --output_dir outputs
+```
+
+## Citation
+If you find our work helpful, please cite us
+
