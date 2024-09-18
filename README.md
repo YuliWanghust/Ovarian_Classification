@@ -26,22 +26,27 @@ Activate the environment by running
 conda activate ovarian_classcify
 ```
 
-### Code pipeline: data preprocess, SAM model, and classification model inference
+### Code pipeline: data preprocessing, SAM model, and classification model inference
 
 #### Data preprocess:
 
-Run the preprocess code
 ```
+# Run the preprocessed code
 python classification-data-preprocessing.py
 ```
 
-**Files and code organizations**:
+**Data preprocess files and code organizations**:
 
 ```
 - T1-ROI-preprocess & T2-ROI-preprocess: Folder that stores the preprocessed T1/T2 files. This folder will fill after running classification-data-preprocessing.py
 - label-classifyT1C+T2-clear.xlsx: Template for what this xlsx data file should contain with all column headers.
 - label-T1C+T2-clear.xlsx: Template for what this xlsx data file should contain with all column headers. 
 ```
+#### SAM model:
+We use TomoSAM, An extension of [3D Slicer](https://www.slicer.org/) using the 
+[Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) 
+to aid the segmentation of 3D data from tomography or other imaging techniques. Detailed instructions on how to use this model can be found [here](https://github.com/fsemerar/SlicerTomoSAM).
+
 
 ## Citation
 If you find our work helpful, please cite us
