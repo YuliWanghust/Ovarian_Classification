@@ -34,6 +34,7 @@ Run the preprocess code
 ```
 python classification-data-preprocessing.py
 ```
+
 **Files and code organizations**:
 
 1. T1-ROI-preprocess & T2-ROI-preprocess  % Folder that stores the preprocessed T1/T2 files. This folder will fill after running classification-data-preprocessing.py
