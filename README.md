@@ -12,7 +12,7 @@ Our study aims to develop a comprehensive end-to-end pipeline. We first evaluate
 ```./3.	T1-2 classification model-with-clinical-dymlp-dual``` contains the model weights for the ovarian classification model. See the respective README.md in the subfolder to see how to run each component.
 
 ## Dependencies:
-To establish the environment, run this code in the shell:
+Using Python version of python=3.10. To establish the environment, run this code in the shell:
 ```
 conda activate ovarian_classcify
 pip install -e requrements.txt.
