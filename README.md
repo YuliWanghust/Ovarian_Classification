@@ -50,9 +50,9 @@ to aid the segmentation of 3D data from tomography or other imaging techniques. 
 # Run the model inference code
 python ovarian classification-dualbranch-fusion-test.py
 ```
-This code takes in the input of the classification data along with the preprocessed T1 and T2 image data to output classification. The end of the model will print evaluation metrics of accuracy.
-When running this model, you Will need to change all the “#Directory Address” portions but have currently inputted templates of data path locations
-When running this model, you Will need to change all of the array endpoints throughout the code for test images, labels, and clinic data based on how data is formatted
+- This code takes in the input of the classification data along with the preprocessed T1 and T2 image data to output classification. The end of the model will print evaluation metrics of accuracy.
+- When running this model, you Will need to change all the “#Directory Address” portions but have currently inputted templates of data path locations
+- When running this model, you Will need to change all of the array endpoints throughout the code for test images, labels, and clinic data based on how data is formatted
 
 
 ## Citation
