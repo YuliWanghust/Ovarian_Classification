@@ -14,8 +14,7 @@ Our study aims to develop a comprehensive end-to-end pipeline. We first evaluate
 ## Dependencies:
 To establish the environment, run this code in the shell:
 ```
-conda env create -f vote_MI.yml
 conda activate vote_MI
-pip install -e .
+pip install -e requrements.txt.
 ```
 That will create the environment selective_annotation we used.
