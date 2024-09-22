@@ -41,7 +41,7 @@ python classification-data-preprocessing.py
 ```
 
 #### SAM model:
-We use TomoSAM, An extension of [3D Slicer](https://www.slicer.org/) using the 
+We use the 
 [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) 
 to aid the segmentation of 3D data from tomography or other imaging techniques. Detailed instructions on how to use this model can be found [here](https://github.com/fsemerar/SlicerTomoSAM).
 
