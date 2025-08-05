@@ -1,6 +1,6 @@
 # Ovarian Classification
 
-Code for paper [Deep Learning Models to Classify Benign and Malignant Ovarian Lesions on MRI: A Multicenter Study]()
+Code for paper [Deep Learning Models to Classify Benign and Malignant Ovarian Lesions on MRI: A Multicenter Study](https://pubs.rsna.org/doi/10.1148/radiol.243412)
 
 <img src="Pics/workflow.png" align="middle" width="75%">
 
